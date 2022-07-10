@@ -18,7 +18,7 @@ li a{
 }
 /* Home */
 #home{
-    padding: 120px 50px;
+    padding: 120px 0px;
 }
 
 #home::before{
