@@ -1,0 +1,70 @@
+/* Navigation bar */
+#navigation{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img{
+    padding-bottom: 20px;
+    margin-right: 0px;
+    
+}
+
+li a{
+    margin-left: 0px;
+    padding: 5px 5px; 
+    font-size: 15px;
+}
+/* Home */
+#home{
+    padding: 120px 40px;
+}
+
+#home::before{
+    height: 480px;
+}
+
+#home h1{
+    font-size: 30px;
+}
+
+#home p{
+    font-size: 0.8rem;
+}
+/* Services */
+#our-services{
+    flex-direction: column;
+}
+/* Our Clinets */
+#img-box{
+    flex-wrap: wrap;
+}
+
+#our-clinets .box img {
+    width: 125px;
+}
+
+#our-clinets .box {
+    padding: 0px 35px;
+}
+/* Contact Us */
+#contact-box form{
+    width:80%;
+}
+/* Footer */
+
+/* Utility */
+.btn {
+    padding: 5px 10px;
+    background-color: brown;
+    font-size: 13px;
+}
+
+.h-primary {
+    font-size: 30px;
+}
+
+.h-secondary {
+    font-size: 25px;
+}
